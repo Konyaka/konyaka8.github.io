@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Лаба&#8470;3 - Latex</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-7" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<script type="text/x-mathjax-config">
+		  MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+		</script>
+		<script type="text/javascript" async
+		  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_CHTML">
+		</script>
+		<style>
+		h1 {text-align:center}
+		h2 {
+		  font-weight: bold;
+		  background-color: #FFDAB9;
+		  padding: .2em .5em;
+		  margin-top: 1.5em;
+		  border-top: 3px solid #0000CD;
+		  border-bottom: 2px solid #FFD700;
+		}
+		</style>
+	</head>
+	<body>
+		<div class="header"></div>
+		<h1>Подборка математических формул</h1>
+
+		<blockquote>
+
+		<h2>Формула Ньютона-Лейбница: </h2>
+
+		<p>
+			$$\int_{a}^{b} f(x) dx = F(b) - F(a)  $$
+		</p>
+
+		<h2>Основное тригонометрическое тождество</h2>
+
+		<p>
+			$$\sin^2\alpha + \cos^2\alpha=1$$
+		</p>
+
+		<h2>Формула количества сочетаний</h2>
+
+		<p>
+			$$C^m_n=\frac {n!}{(n-m)! \cdot m!}$$
+		</p>
+
+		<h2>А это самая обычная матрица</h2>
+
+		<p>
+			$$\ \large\left(\begin{array}{c.cccc}&1&2&\cdots&n\\1&a_{11}&a_{12}&\cdots&a_{1n}\\2&a_{21}&a_{22}&\cdots&a_{2n}\\\vdots&\vdots&\vdots&\ddots&\vdots\\n&a_{n1}&a_{n2}&\cdots&a_{nn}\end{array}\right)$$
+		</p>
+		<h2></h2>
+		<h3>Задание:</h3>
+		<br>
+		Найти определенный интеграл:
+		<p>$${\int\limits_{0}^{1}{ {{x}^{2}} \ln(1+x)}{d}{x}}$$</p>
+		<hr>
+		<p>
+			Решение:
+		</p>
+		<p>
+			$${\int\limits_{0}^{1}{ {{x}^{2}} \ln(1+x)}{d}{x}}= {\int\limits_{0}^{1}{\ln(1+x)}{d}\left({\frac{1}{3}  {{x}^{3}}}\right)} = -{\int\limits_{0}^{1}{\frac{1}{3}  {{x}^{3}}}{d}\left({\ln(1+x)}\right)}+{\left.{\frac{1}{3}  {{x}^{3}} \ln(1+x)}\right|_{0}^{1}} = $$
+		</p>
+		<br> 
+		<p>	$$ -{\int\limits_{0}^{1}{\frac{1}{3} \frac{{{x}^{3}}}{1+x}}{d}{x}}+{\left.{\frac{1}{3}  {{x}^{3}} \ln(1+x)}\right|_{0}^{1}} = -{\int\limits_{0}^{1}{\frac{1}{3} \frac{{{x}^{3}}}{1+x}}{d}{x}}+\frac{1}{3} \ln(2) = -{\int\limits_{0}^{1}\left({\frac{1}{3}-\frac{1}{3} \frac{1}{1+x}+\frac{1}{3} {{x}^{2}}-\frac{1}{3} x}\right){d}{x}}+\frac{1}{3} \ln(2) = \frac{1}{3} \ln(2)-{\int\limits_{0}^{1}\left({\frac{1}{3}+\frac{1}{3} {{x}^{2}}-\frac{1}{3} x}\right){d}{x}}-{\int\limits_{0}^{1}\left({-\frac{1}{3} \frac{1}{1+x}}\right){d}{x}}$$
+		</p>
+		<p>Вычислим каждый интеграл суммы :
+		<p>
+			$${\int\limits_{0}^{1}\left({-\frac{1}{3} \frac{1}{1+x}}\right){d}{x}} = {\int\limits_{0}^{1}\left({-\frac{1}{3} \frac{1}{1+x}}\right){d}\left({1+x}\right)} = -\frac{1}{3}  {\int\limits_{0}^{1}{\frac{1}{1+x}}{d}\left({1+x}\right)}=$$
+			$${\left.\left({-\frac{1}{3}  \ln({|1+x|})}\right)\right|_{0}^{1}} = -\frac{1}{3}  \ln(2) $$
+			
+		</p>
+		<br>
+		<p>
+			$${\int\limits_{0}^{1}\left({\frac{1}{3}+\frac{1}{3} {{x}^{2}}-\frac{1}{3} x}\right){d}{x}} = {\left.\left({-\frac{1}{6}  {{x}^{2}}}\right)\right|_{0}^{1}}+{\left.{\frac{1}{9}  {{x}^{3}}}\right|_{0}^{1}}+{\left.{\frac{1}{3}  x}\right|_{0}^{1}} = \frac{5}{18}$$
+		</p>
+		<p>Таким образом, сумма интегралов равна  :
+		<p>$$\frac{1}{3} \ln(2)-{\int\limits_{0}^{1}\left({\frac{1}{3}+\frac{1}{3} {{x}^{2}}-\frac{1}{3} x}\right){d}{x}}-{\int\limits_{0}^{1}\left({-\frac{1}{3} \frac{1}{1+x}}\right){d}{x}}=-\frac{5}{18}+\frac{2}{3} \ln(2)$$</p>
+		<br>
+		<hr>
+		Ответ:
+		<p>$${{{\int\limits_{0}^{1}{ {{x}^{2}} \ln(1+x)}{d}{x}}}={-\frac{5}{18}+\frac{2}{3} \ln(2)}}$$</p>
+		<h2></h2>
+		</blockquote>
+	</body>
+</html>
