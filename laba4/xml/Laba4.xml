@@ -1,0 +1,175 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<TimeTable>
+	<TMonth>
+		<month>Апрель</month>
+		<NumWeek>
+			<week>Неделя 4</week>
+			<TableDay>
+				<weekDay>Понедельник</weekDay>
+				<Data>24.04.2017</Data>
+				<schedule>
+					<LNum>3 пара</LNum>
+					<lessonTime>10:30 - 11:55</lessonTime>
+					<lessonType>Лк</lessonType>
+					<subject>МА</subject>
+					<auditory>2501</auditory>
+					<employee>
+						<lastName>Ляшенко</lastName>
+						<firstName>В.</firstName>
+						<middleName>П.</middleName>
+					</employee>
+				</schedule>
+				<schedule>
+					<LNum>4 пара</LNum>
+					<lessonTime>12:05 - 13:35</lessonTime>
+					<lessonType>Лк</lessonType>
+					<subject>ОПР</subject>
+					<auditory>2513</auditory>
+					<employee>
+						<lastName>Дериенко</lastName>
+						<firstName>А.</firstName>
+						<middleName>И.</middleName>
+					</employee>
+				</schedule>
+			</TableDay>
+			<TableDay>
+				<weekDay>Вторник</weekDay>
+				<Data></Data>
+				<schedule>
+					<LNum></LNum>
+					<lessonTime> </lessonTime>
+					<lessonType> </lessonType>
+					<subject> </subject>
+					<auditory> </auditory>
+					<employee>
+						<lastName> </lastName>
+						<firstName> </firstName>
+						<middleName> </middleName>
+					</employee>
+				</schedule>
+				
+			</TableDay>
+			<TableDay>
+				<weekDay>Среда</weekDay>
+				<Data>26.04.2017</Data>
+				<schedule>
+					<LNum>4 пара</LNum>
+					<lessonTime>12:05 - 13:25</lessonTime>
+					<lessonType>ЛБ</lessonType>
+					<subject>ООЕИ</subject>
+					<auditory>2501</auditory>
+					<employee>
+						<lastName>Заика</lastName>
+						<firstName>А.</firstName>
+						<middleName>В.</middleName>
+					</employee>
+				</schedule>
+				<schedule>
+					<LNum>5 пара</LNum>
+					<lessonTime>13:35 - 14:55</lessonTime>
+					<lessonType>Лк</lessonType>
+					<subject>ДР</subject>
+					<auditory>2501</auditory>
+					<employee>
+						<lastName>Набок</lastName>
+						<firstName>Т.</firstName>
+						<middleName>А.</middleName>
+					</employee>
+				</schedule>
+				<schedule>
+					<LNum>6 пара</LNum>
+					<lessonTime>15:05 - 16:25</lessonTime>
+					<lessonType>Лк</lessonType>
+					<subject>МА</subject>
+					<auditory>2501</auditory>
+					<employee>
+						<lastName>Ляшенко</lastName>
+						<firstName>В.</firstName>
+						<middleName>П.</middleName>
+					</employee>
+				</schedule>
+			</TableDay>
+			<TableDay>
+				<weekDay>Четверг</weekDay>
+				<Data>27.03.2017</Data>
+				<schedule>
+					<LNum>2 пара</LNum>
+					<lessonTime>09:00 - 10:20</lessonTime>
+					<lessonType>Пз</lessonType>
+					<subject>ДР</subject>
+					<auditory>7306</auditory>
+					<employee>
+						<lastName>Скотникова</lastName>
+						<firstName>Л.</firstName>
+						<middleName>Н.</middleName>
+					</employee>
+				</schedule>
+				<schedule>
+					<LNum>3 пара</LNum>
+					<lessonTime>10:30 - 11:50</lessonTime>
+					<lessonType>Лб</lessonType>
+					<subject>ОзтМ</subject>
+					<auditory>2513</auditory>
+					<employee>
+						<lastName>Григорова</lastName>
+						<firstName>Т.</firstName>
+						<middleName>А.</middleName>
+					</employee>
+				</schedule>
+				<schedule>
+					<LNum>4 пара</LNum>
+					<lessonTime>12:05 - 13:25</lessonTime>
+					<lessonType>Лк</lessonType>
+					<subject>ТИМ</subject>
+					<auditory>3302</auditory>
+					<employee>
+						<lastName>Почтовюк</lastName>
+						<firstName>С.</firstName>
+						<middleName>И.</middleName>
+					</employee>
+				</schedule>
+				
+			</TableDay>
+			<TableDay>
+				<weekDay>Пятниця</weekDay>
+				<Data>28.04.2017</Data>
+				<schedule>
+					<LNum>3 пара</LNum>
+					<lessonTime>10:30 - 11:50</lessonTime>
+					<lessonType>лб</lessonType>
+					<subject>ОПР</subject>
+					<auditory>2513</auditory>
+					<employee>
+						<lastName>Дериенко</lastName>
+						<firstName>А.</firstName>
+						<middleName>И.</middleName>
+					</employee>
+				</schedule>
+				<schedule>
+					<LNum>4 пара</LNum>
+					<lessonTime>12:05 - 13:25</lessonTime>
+					<lessonType>ЛБ</lessonType>
+					<subject>ООЕИ</subject>
+					<auditory>2503</auditory>
+					<employee>
+						<lastName>Заика</lastName>
+						<firstName>А.</firstName>
+						<middleName>В.</middleName>
+					</employee>
+				</schedule>
+				<schedule>
+					<LNum>5 пара</LNum>
+					<lessonTime>13:35 - 14:45</lessonTime>
+					<lessonType>Лк</lessonType>
+					<subject>ТИМ</subject>
+					<auditory>2507</auditory>
+					<employee>
+						<lastName>Почтовюк</lastName>
+						<firstName>С.</firstName>
+						<middleName>И.</middleName>
+					</employee>
+				</schedule>
+			</TableDay>
+		</NumWeek>
+	</TMonth>
+</TimeTable>
