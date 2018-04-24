@@ -1,0 +1,512 @@
+{
+  "_comment" : "Created with OWL2VOWL (version 0.2.0), http://vowl.visualdataweb.org",
+  "namespace" : [ ],
+  "header" : {
+    "languages" : [ "IRI-based" ],
+    "iri" : "http://primat.org/demo/webowl/data/ontovibe.owl"
+  },
+  "metrics" : {
+    "classCount" : 30,
+    "datatypeCount" : 0,
+    "objectPropertyCount" : 0,
+    "datatypePropertyCount" : 0,
+    "propertyCount" : 0,
+    "nodeCount" : 30,
+    "axiomCount" : 49,
+    "individualCount" : 0
+  },
+  "class" : [ {
+    "id" : "class8",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class5",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class4",
+    "type" : "owl:Class"
+	}, {
+    "id" : "class22",
+    "type" : "externalclass"
+  }, {
+    "id" : "class16",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class9",
+    "type" : "owl:Class"
+	}, {
+    "id" : "class21",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class13",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class11",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class14",
+    "type" : "owl:Class"
+	}, {
+    "id" : "class20",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class7",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class10",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class12",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class15",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class3",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "class6",
+    "type" : "owl:Class"
+	}, {
+    "id" : "class19",
+    "type" : "owl:Class"
+	 }, {
+    "id" : "class23",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "class1",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class17",
+    "type" : "owl:Class"
+	}, {
+    "id" : "class18",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class2",
+    "type" : "owl:Class"
+  } ],
+  "classAttribute" : [ {
+    "id" : "class8",
+    "label" : {
+      "IRI-based" : "Программирование. 3 семестр"
+    },
+    "iri" : "http://primat.org/demo/webowl/data/ontovibe.owl#turbo-pascal",
+    "superClasses" : [ "class9" ],
+    "instances" : 0
+  }, {
+    "id" : "class5",
+    "label" : {
+      "IRI-based" : "ВышМат. Сокр обучение"
+    },
+    "iri" : "http://primat.org/demo/webowl/data/ontovibe.owl#soft",
+    "superClasses" : [ "class7" ],
+    "instances" : 0
+	}, {
+    "id" : "class20",
+    "label" : {
+      "IRI-based" : "Оптимизация проектирования радиоэлектронных устройств"
+    },
+    "iri" : "http://primat.org/demo/webowl/data/ontovibe.owl#soft",
+    "superClasses" : [ "class18" ],
+    "instances" : 0
+	}, {
+    "id" : "class22",
+    "label" : {
+      "IRI-based" : "Доступ"
+    },
+    "iri" : "http://primat.org/demo/webowl/data/ontovibe.owl#news",
+    "superClasses" : [ "class3" ],
+    "instances" : 0
+	}, {
+    "id" : "class17",
+    "label" : {
+      "IRI-based" : "ВышМат. 1 семестр"
+    },
+    "iri" : "http://primat.org/demo/webowl/data/ontovibe.owl#soft",
+    "superClasses" : [ "class7" ],
+    "instances" : 0
+  }, {
+  "id" : "class21",
+    "label" : {
+      "IRI-based" : "Основы телевидения и телевизионные системы"
+    },
+    "iri" : "http://primat.org/demo/webowl/data/ontovibe.owl#soft",
+    "superClasses" : [ "class18" ],
+    "instances" : 0
+  }, {
+    "id" : "class4",
+    "label" : {
+      "IRI-based" : "ВышМат. 3 семестр"
+    },
+    "iri" : "http://primat.org/demo/webowl/data/ontovibe.owl#text",
+    "superClasses" : [ "class7" ],
+    "instances" : 0
+	}, {
+	 "id" : "class19",
+    "label" : {
+      "IRI-based" : "Компьютерное моделирование радиоэлектронных устройств"
+    },
+    "iri" : "http://primat.org/demo/webowl/data/ontovibe.owl#text",
+    "superClasses" : [ "class18" ],
+    "instances" : 0
+	}, {
+    "id" : "class16",
+    "label" : {
+      "IRI-based" : "ВышМат. 2 семестр"
+    },
+    "iri" : "http://primat.org/demo/webowl/data/ontovibe.owl#text",
+    "superClasses" : [ "class7" ],
+    "instances" : 0
+  }, {
+    "id" : "class9",
+    "label" : {
+      "IRI-based" : "Программирование"
+    },
+    "iri" : "http://primat.org/demo/webowl/data/ontovibe.owl#files",
+    "subClasses" : [ "class2", "class15", "class1", "class8" ],
+    "superClasses" : [ "class3" ],
+    "instances" : 0
+  }, {
+    "id" : "class13",
+    "label" : {
+      "IRI-based" : "Системы подготовки информации"
+    },
+    "iri" : "http://primat.org/demo/webowl/data/ontovibe.owl#about",
+    "superClasses" : [ "class10" ],
+    "instances" : 0
+  }, {
+    "id" : "class11",
+    "label" : {
+      "IRI-based" : "Организация и обработка информации"
+    },
+    "iri" : "http://primat.org/demo/webowl/data/ontovibe.owl#web-news",
+    "superClasses" : [ "class10" ],
+    "instances" : 0
+	}, {
+    "id" : "class23",
+    "label" : {
+      "IRI-based" : "Открытый"
+    },
+    "iri" : "http://primat.org/demo/webowl/data/ontovibe.owl#soft",
+    "superClasses" : [ "class22" ],
+    "instances" : 0
+  }, {
+    "id" : "class14",
+    "label" : {
+      "IRI-based" : "Проектирование систем искусственного интеллекта"
+    },
+    "iri" : "http://primat.org/demo/webowl/data/ontovibe.owl#form-email",
+    "superClasses" : [ "class10" ],
+    "instances" : 0
+  }, {
+    "id" : "class7",
+    "label" : {
+      "IRI-based" : "Математика"
+    },
+    "iri" : "http://primat.org/demo/webowl/data/ontovibe.owl#download",
+    "subClasses" : [ "class5", "class4" ],
+    "superClasses" : [ "class3" ],
+    "instances" : 0
+  }, {
+    "id" : "class10",
+    "label" : {
+      "IRI-based" : "Спецкурсы"
+    },
+    "iri" : "http://primat.org/demo/webowl/data/ontovibe.owl#news",
+    "subClasses" : [ "class12", "class6", "class11", "class13" ],
+    "superClasses" : [ "class3" ],
+    "instances" : 0
+	}, {
+    "id" : "class18",
+    "label" : {
+      "IRI-based" : "Разные курсы"
+    },
+    "iri" : "http://primat.org/demo/webowl/data/ontovibe.owl#news",
+    "subClasses" : [ "class19", "class6", "class11", "class13" ],
+    "superClasses" : [ "class3" ],
+    "instances" : 0
+  }, {
+    "id" : "class12",
+    "label" : {
+      "IRI-based" : "Интеллектуальные информационные системы"
+    },
+    "iri" : "http://primat.org/demo/webowl/data/ontovibe.owl#it-news",
+    "superClasses" : [ "class10" ],
+    "instances" : 0
+  }, {
+    "id" : "class15",
+    "label" : {
+      "IRI-based" : "Программирование 1 семестр"
+    },
+    "iri" : "http://primat.org/demo/webowl/data/ontovibe.owl#pascal",
+    "superClasses" : [ "class9" ],
+    "instances" : 0
+  }, {
+    "id" : "class3",
+    "label" : {
+      "IRI-based" : "математика.укр"
+    },
+    "iri" : "http://primat.org/demo/webowl/data/ontovibe.owl#primat.org",
+    "subClasses" : [ "class7", "class9", "class10", "class18", "class22"],
+    "instances" : 0
+  }, {
+    "id" : "class6",
+    "label" : {
+      "IRI-based" : "Специализированные языки программирования. 5 курс"
+    },
+    "iri" : "http://primat.org/demo/webowl/data/ontovibe.owl#math-news",
+    "superClasses" : [ "class10" ],
+    "instances" : 0
+  }, {
+    "id" : "class1",
+    "label" : {
+      "IRI-based" : "Программирование. C++ 2 семестр"
+    },
+    "iri" : "http://primat.org/demo/webowl/data/ontovibe.owl#pascal-abc",
+    "superClasses" : [ "class9" ],
+    "instances" : 0
+  }, {
+    "id" : "class2",
+    "label" : {
+      "IRI-based" : "Программирование. Python"
+    },
+    "iri" : "http://primat.org/demo/webowl/data/ontovibe.owl#math",
+    "superClasses" : [ "class9" ],
+    "instances" : 0
+  } ],
+  "property" : [ {
+    "id" : "property9",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property6",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property5",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property8",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property18",
+    "type" : "rdfs:SubClassOf"
+	}, {
+    "id" : "property19",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property7",
+    "type" : "rdfs:SubClassOf"
+	}, {
+    "id" : "property21",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property2",
+    "type" : "rdfs:SubClassOf"
+	}, {
+    "id" : "property20",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property1",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property4",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property3",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property14",
+    "type" : "rdfs:SubClassOf"
+	  }, {
+    "id" : "property22",
+    "type" : "owl:ObjectProperty"
+		  }, {
+    "id" : "property23",
+    "type" : "owl:ObjectProperty"
+	 }, {
+    "id" : "property35",
+    "type" : "owl:ObjectProperty"
+  }, {
+    "id" : "property11",
+    "type" : "rdfs:SubClassOf"
+	 }, {
+    "id" : "property16",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property10",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property13",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property15",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property12",
+    "type" : "rdfs:SubClassOf"
+  } ],
+  "propertyAttribute" : [ {
+    "id" : "property9",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class8",
+    "range" : "class9"
+  }, {
+    "id" : "property6",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class6",
+    "range" : "class10"
+	}, {
+	 "id" : "property21",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class21",
+    "range" : "class18"
+	}, {
+    "id" : "property19",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class19",
+    "range" : "class18"
+  }, {
+    "id" : "property5",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class12",
+    "range" : "class10"
+	}, {
+    "id" : "property18",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class18",
+    "range" : "class3"
+	}, {
+    "id" : "property22",
+    "label" : {
+        "IRI-based" : "Связь",
+      "undefined" : "Связь"
+    },
+    "domain" : "class22",
+    "range" : "class3"
+  }, {
+    "id" : "property8",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class1",
+    "range" : "class9"
+  }, {
+    "id" : "property7",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class11",
+    "range" : "class10"
+  }, {
+    "id" : "property2",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class15",
+    "range" : "class9"
+  }, {
+    "id" : "property1",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class2",
+    "range" : "class9"
+  }, {
+    "id" : "property4",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class4",
+    "range" : "class7"
+  }, {
+    "id" : "property3",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class5",
+    "range" : "class7"
+		}, {
+    "id" : "property23",
+    "label" : {
+        "IRI-based" : "Связь",
+      "undefined" : "Связь"
+    },
+    "domain" : "class23",
+    "range" : "class22"
+	}, {
+	"id" : "property35",
+    "label" : {
+        "IRI-based" : "Доступ",
+      "undefined" : "Доступ"
+    },
+    "domain" : "class7",
+    "range" : "class23"
+	}, {
+    "id" : "property15",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class16",
+    "range" : "class7"
+	}, {
+    "id" : "property16",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class17",
+    "range" : "class7"
+  }, {
+    "id" : "property14",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class10",
+    "range" : "class3"
+  }, {
+    "id" : "property20",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class20",
+    "range" : "class18"
+  }, {
+    "id" : "property11",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class7",
+    "range" : "class3"
+  }, {
+    "id" : "property10",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class13",
+    "range" : "class10"
+  }, {
+    "id" : "property13",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class14",
+    "range" : "class10"
+  }, {
+    "id" : "property12",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class9",
+    "range" : "class3"
+  } ]
+}
